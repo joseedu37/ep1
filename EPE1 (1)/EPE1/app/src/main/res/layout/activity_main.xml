@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+
+    >
+
+
+    <TableRow
+        android:padding="0dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:gravity="center"
+            android:text="Calculo de Notas"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dip">
+
+        <TextView
+            android:id="@+id/tvEPR1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="25dip"
+            android:layout_weight="1"
+            android:text="EPR1"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/etEPR1"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:inputType="numberDecimal"
+            android:textStyle="italic"
+
+
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dip">
+
+        <TextView
+            android:id="@+id/tvEPE1"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="EPE1"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/etEPE1"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="20dip"
+            android:inputType="numberDecimal"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dip">
+
+        <TextView
+            android:id="@+id/tvEPR2"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="EPR2"
+            android:textSize="25dp"
+
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/etEPR2"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="2dip"
+            android:layout_marginRight="20dip"
+            android:inputType="numberDecimal"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dip"
+        >
+
+        <TextView
+            android:id="@+id/tvEPE2"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="EPE2"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/etEPE2"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:inputType="numberDecimal"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dip"
+        >
+
+        <TextView
+            android:id="@+id/tvEVA1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_weight="1"
+            android:text="EVA1"
+            android:textSize="25dp"
+
+            />
+
+        <EditText
+            android:id="@+id/etEVA1"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:inputType="numberDecimal"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dip"
+        >
+
+        <TextView
+            android:id="@+id/tvEVA2"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="EVA2"
+            android:textSize="25dp"
+            />
+
+        <EditText
+            android:id="@+id/etEVA2"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:inputType="numberDecimal"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dip"
+        >
+
+        <TextView
+            android:id="@+id/tvEVA3"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="EVA3"
+            android:textSize="25dp"
+            />
+
+        <EditText
+            android:id="@+id/etEVA3"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:inputType="numberDecimal"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dip"
+        >
+
+        <TextView
+            android:id="@+id/tvEVA4"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="EVA4"
+            android:textSize="25dp"
+            />
+
+        <EditText
+            android:id="@+id/etEVA4"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:inputType="numberDecimal"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Calcular"
+            />
+    </TableRow>
+</TableLayout>
